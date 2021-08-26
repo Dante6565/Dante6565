@@ -1,0 +1,120 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled0.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyPfaEos/q+xv+nAGWHzqboD",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Dante6565/Dante6565/blob/main/Matematicas%20Tarea\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "d9k9MjKx8NSD",
+        "outputId": "544c88e1-8919-45f3-905c-d492e951f0b8"
+      },
+      "source": [
+        "#Desarrollo pregunta C de forma directa.\n",
+        "#Formula del termino N. Entonces a_n=a_1*r**(n-1)\n",
+        "a1=4\n",
+        "r=1.5\n",
+        "print(\"Calculo del termino en el lugar N\")\n",
+        "print(f\"a(60)={4*1.5**(60-1)}\")"
+      ],
+      "execution_count": 4,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Calculo del termino en el lugar N\n",
+            "a(60)=98049249911.8214\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "vAsCBV9Z9vnL",
+        "outputId": "e5faba3e-61d4-466d-b365-3e3864d6b8dd"
+      },
+      "source": [
+        "#Desarrollo pregunta C de forma RECURSIVA.\n",
+        "#Formula del termino N. Entonces a _n=a_1*r**(n-1)\n",
+        "termino=4\n",
+        "r=1.5\n",
+        "for n in range (2,61):\n",
+        "  termino=termino*r\n",
+        "print(f\"a({n})={termino}\")"
+      ],
+      "execution_count": 9,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "a(60)=98049249911.8214\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "I-pv8mue9xru",
+        "outputId": "6d13ed32-e955-485b-ae56-ffbceaec7969"
+      },
+      "source": [
+        "#Desarrollo pregunta D\n",
+        "import math\n",
+        "a1=4\n",
+        "r=1.5\n",
+        "an=68.34375\n",
+        "X=an/a1\n",
+        "base=r\n",
+        "n=math.log(X,base)+1\n",
+        "print(f\"n={n}\")"
+      ],
+      "execution_count": 7,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "n=7.999999999999999\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    }
+  ]
+}
