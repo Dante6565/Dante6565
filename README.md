@@ -1,11 +1,9 @@
-# 👋 Hi, I’m @Dante6565 || Hola me llamo Dante Reyes
+# 👋 Hi, I’m @Dante6565 || Hola me llamo Dante 
 
 ![asdasdasdasd](https://user-images.githubusercontent.com/86571643/177908654-2a6d1959-91e0-4639-8f4e-d6efb991428c.gif)
 
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+- 👀 Estoy interesado en aprender python y Data Science de momento
+- 📫 Soy un estudiante de Ingenieria en Informatica.
 
 <!---
 Dante6565/Dante6565 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
