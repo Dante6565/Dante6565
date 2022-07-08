@@ -1,4 +1,4 @@
-![asdsadasd](https://user-images.githubusercontent.com/86571643/177908629-1e98ef95-7abb-436c-bfd0-4934d0f3daae.gif)
+![asdasdasdasd](https://user-images.githubusercontent.com/86571643/177908654-2a6d1959-91e0-4639-8f4e-d6efb991428c.gif)
 
 
 - 👋 Hi, I’m @Dante6565
